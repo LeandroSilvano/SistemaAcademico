@@ -6,6 +6,6 @@ O funcionamento deste sistema depende de um servidor MySQL que esteja em execuç
 
 Exemplo:
 
-CREATE USER 'admin'@'%' IDENTIFIED BY 'p0o9i8u7';
+"CREATE USER 'admin'@'%' IDENTIFIED BY 'p0o9i8u7';
 GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' IDENTIFIED BY 'p0o9i8u7';
-FLUSH PRIVILEGES;
+FLUSH PRIVILEGES;" (sem aspas)
