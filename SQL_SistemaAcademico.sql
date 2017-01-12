@@ -25,7 +25,8 @@ codigoAluno bigint,
 estado varchar(20));
 
  /*Se der falha ao executar as linhas abaixo, 
- é porque o usuário já existe e não precisa ser criado*/
+ é porque o usuário já existe e não precisa ser criado, mas se essa for a primeira vez de implementar esse sistema,
+ essas linhas abaixo devem ser obrigatoriamente executadas.*/
 CREATE USER 'admin'@'%' IDENTIFIED BY 'p0o9i8u7';
 GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' IDENTIFIED BY 'p0o9i8u7';
 FLUSH PRIVILEGES;
